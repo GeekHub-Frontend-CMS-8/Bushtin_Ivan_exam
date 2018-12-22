@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'GothamRounded-Bold';
+  src: url("../fonts/GothamRounded-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GothamRounded-Book';
+  src: url("../fonts/GothamRounded-Book.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GothamRounded-Medium';
+  src: url("../fonts/GothamRounded-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+.navbar {
+  padding-right: 0; }
+  @media (min-width: 991px) {
+    .navbar {
+      padding-top: 0; } }
+
+.nav {
+  border: none;
+  align-items: flex-end; }
+  @media (max-width: 991px) {
+    .nav {
+      flex-direction: column;
+      align-items: flex-end; } }
+
+.nav-item {
+  padding: 20px 15px 5px; }
+  @media (max-width: 991px) {
+    .nav-item {
+      padding: 5px 10px 5px 5px; } }
+  .nav-item:hover {
+    color: #fff;
+    background-color: #16a085;
+    border-radius: 5px; }
+
+.nav-link {
+  padding: 0;
+  color: #fff;
+  font: 700 16px "GothamRounded-Medium", sans-serif;
+  text-transform: uppercase; }
+  .nav-link:hover {
+    color: #fff; }
+
+@media (min-width: 1200px) {
+  .menu-container {
+    padding-left: 100px; } }
+
+.main-page {
+  background: url("../img/mp-bg.png") center/cover no-repeat; }
+
+.home {
+  text-align: center; }
+  .home h1 {
+    margin-top: 200px;
+    color: #fff;
+    font: 700 36px "GothamRounded-Medium", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px; }
+  .home p {
+    margin: 15px 0 25px;
+    color: #fff;
+    font: 500 16px "GothamRounded-Medium", sans-serif;
+    letter-spacing: 3px; }
+
+.button {
+  width: 165px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: #16a085;
+  color: #fff;
+  font: 700 12px "GothamRounded-Medium", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  outline: none;
+  border: none; }
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px; }
+  .social-list .social-list-item {
+    margin-right: 20px; }
+    .social-list .social-list-item i {
+      color: #fff; }
+      .social-list .social-list-item i:hover {
+        color: #16a085; }
+
+.second {
+  padding: 100px 0 100px 120px;
+  height: 494px;
+  overflow: hidden;
+  background: #fff url("../img/hand.png") top no-repeat; }
+  .second h4 {
+    max-width: 376px;
+    color: #16a085;
+    font: 700 18px "GothamRounded-Medium", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+  .second p {
+    max-width: 430px;
+    margin: 50px 0;
+    color: #373737;
+    font: 400 12px "GothamRounded-Book", sans-serif; }
+
+.third {
+  background-color: #fff;
+  height: 558px;
+  padding: 140px 80px 0 120px;
+  overflow: hidden; }
+  .third .phone-2 {
+    background: url("../img/phone-2.png") top no-repeat; }
+  .third .angle {
+    display: flex; }
+    .third .angle li {
+      margin-right: 20px; }
+  .third .third-text h4 {
+    max-width: 376px;
+    color: #16a085;
+    font: 700 18px "GothamRounded-Medium", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+  .third .third-text p {
+    max-width: 430px;
+    margin: 50px 0;
+    color: #373737;
+    font: 400 12px "GothamRounded-Book", sans-serif; }
+  .third .third-text span {
+    margin: 45px 0 10px;
+    color: #373737;
+    font: 700 12px "GothamRounded-Medium", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+
+.fourth {
+  text-align: center;
+  background-color: #fff;
+  padding: 100px 0; }
+  .fourth .forth-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; }
+    .fourth .forth-list .bus {
+      width: 100%;
+      max-width: 320px;
+      height: 244px;
+      background: url("../img/bus.png") center/cover no-repeat; }
+    .fourth .forth-list .lives {
+      width: 100%;
+      max-width: 320px;
+      height: 244px;
+      background: url("../img/lives.png") center/cover no-repeat; }
+    .fourth .forth-list .fourth-text {
+      width: 100%;
+      margin-bottom: 20px;
+      max-width: 180px;
+      text-align: center; }
+      .fourth .forth-list .fourth-text h4 {
+        width: 100%;
+        max-width: 175px;
+        margin: 30px auto;
+        color: #373737;
+        font: 700 16px "GothamRounded-Medium", sans-serif;
+        text-transform: uppercase; }
+      .fourth .forth-list .fourth-text p {
+        max-width: 140px;
+        margin: 0 auto;
+        color: #373737;
+        font: 500 10px "GothamRounded-Medium", sans-serif;
+        letter-spacing: 2px; }
+
+.fifth {
+  background: url("../img/5-bg.png") center/cover no-repeat;
+  text-align: center;
+  padding: 320px 0; }
+  .fifth h2 {
+    color: #fff;
+    font: 700 24px "GothamRounded-Medium", sans-serif;
+    text-transform: uppercase; }
+  .fifth form {
+    margin-top: 30px;
+    max-width: 320px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+  .fifth .email {
+    width: 280px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 25px;
+    background-color: #fff;
+    color: #373737;
+    font: 500 16px "GothamRounded-Medium", sans-serif;
+    text-transform: uppercase;
+    outline: none;
+    border: none; }
+  .fifth .button-submit {
+    width: 64px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #16a085;
+    border: none; }
+  .fifth label {
+    margin: 0; }
+  .fifth .submit {
+    position: relative; }
+    .fifth .submit i {
+      position: absolute;
+      top: 35%;
+      left: 25px;
+      color: #fff; }

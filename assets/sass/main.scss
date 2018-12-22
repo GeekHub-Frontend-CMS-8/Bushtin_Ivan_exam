@@ -1,0 +1,207 @@
+@import "variables";
+@import "fonts";
+@import "header";
+@import "footer";
+
+.main-page {
+  background: url("../img/mp-bg.png") center/cover no-repeat;
+}
+
+.home {
+  text-align: center;
+  h1 {
+    margin-top: 200px;
+    color: $first-color;
+    font: 700 36px $primari-font-medium;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  p {
+    margin: 15px 0 25px;
+    color: $first-color;
+    font: 500 16px $primari-font-medium;
+    letter-spacing: 3px;
+  }
+}
+
+.button {
+  width: 165px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: $second-color;
+  color: $first-color;
+  font: 700 12px $primari-font-medium;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  outline: none;
+  border: none;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  .social-list-item {
+    margin-right: 20px;
+    i {
+      color: $first-color;
+      &:hover {
+        color: $second-color;
+      }
+    }
+  }
+}
+
+.second {
+  padding: 100px 0 100px 120px;
+  height: 494px;
+  overflow: hidden;
+  background: $first-color url("../img/hand.png") top no-repeat;
+  h4 {
+    max-width: 376px;
+    color: $second-color;
+    font: 700 18px $primari-font-medium;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  p {
+    max-width: 430px;
+    margin: 50px 0;
+    color: #373737;
+    font: 400 12px $primari-font-book;
+  }
+}
+
+.third {
+  background-color: $first-color;
+  height: 558px;
+  padding: 140px 80px 0 120px;
+  overflow: hidden;
+  .phone-2 {
+    background: url("../img/phone-2.png") top no-repeat;
+  }
+  .angle {
+    display: flex;
+    li {
+      margin-right: 20px;
+    }
+  }
+  .third-text {
+    h4 {
+      max-width: 376px;
+      color: $second-color;
+      font: 700 18px $primari-font-medium;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+    p {
+      max-width: 430px;
+      margin: 50px 0;
+      color: #373737;
+      font: 400 12px $primari-font-book;
+    }
+    span {
+      margin: 45px 0 10px;
+      color: #373737;
+      font: 700 12px $primari-font-medium;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+}
+
+.fourth {
+  text-align: center;
+  background-color: $first-color;
+  padding: 100px 0;
+  .forth-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .bus {
+      width: 100%;
+      max-width: 320px;
+      height: 244px;
+      background: url("../img/bus.png") center/cover no-repeat;
+    }
+    .lives {
+      width: 100%;
+      max-width: 320px;
+      height: 244px;
+      background: url("../img/lives.png") center/cover no-repeat;
+    }
+    .fourth-text {
+      width: 100%;
+      margin-bottom: 20px;
+      max-width: 180px;
+      text-align: center;
+      h4 {
+        width: 100%;
+        max-width: 175px;
+        margin: 30px auto;
+        color: #373737;
+        font: 700 16px $primari-font-medium;
+        text-transform: uppercase;
+      }
+      p {
+        max-width: 140px;
+        margin: 0 auto;
+        color: #373737;
+        font: 500 10px $primari-font-medium;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+
+.fifth {
+  background: url("../img/5-bg.png") center/cover no-repeat;
+  text-align: center;
+  padding: 320px 0;
+  h2 {
+    color: $first-color;
+    font: 700 24px $primari-font-medium;
+    text-transform: uppercase;
+  }
+  form {
+    margin: 30px auto;
+    max-width: 320px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .email {
+    width: 280px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 25px;
+    background-color: $first-color;
+    color: #373737;
+    font: 500 16px $primari-font-medium;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+  }
+  .button-submit {
+    width: 64px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: $second-color;
+    border: none;
+  }
+  label {
+    margin: 0;
+  }
+  .submit {
+    position: relative;
+    i {
+      position: absolute;
+      top:35%;
+      left: 25px;
+      color: $first-color;
+    }
+  }
+}
